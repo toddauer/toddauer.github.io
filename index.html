@@ -19,5 +19,22 @@
     </nav>
  <!--Hyperlinks to Microsoft Forms online survey-->
     <li class="formatlink"><a href="https://forms.office.com/r/mfX8HMUgr7" target="_blank">Course Survey</a></li>
+    <div id="msgarea" class="msgarea">   
+        <button class="msgbtn" onclick="clmessage()">&times;</button>  
+            <p>Messages:<pre>
+            You may <u>NOT</u> use your notes during assessment.
+            You must achieve at least 80% to move on to the next course.
+            Items in black are not availabel at this time</pre></p>
+        </div>
+<script>
+    function clmessage(){
+        var x = document.getElementById('msgarea');
+        if (x.style.display === 'none'){
+          x.style.display = 'block';
+        } else {
+          x.style.display = 'none';
+        }
+        }
+</script>
 </body>
 </html>
