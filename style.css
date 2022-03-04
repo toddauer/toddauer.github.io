@@ -5,11 +5,9 @@ body{
 .indexcontainer{
     overflow: auto;
     height: 33vh;
-<<<<<<< HEAD
     background-color: white;
     display: grid;
     place-content: center;
-=======
     border: solid black 1px;
 }
 .messageContainer p{
@@ -29,7 +27,6 @@ body{
     background-color: white;
     margin: 0;
     height: fit-content;
->>>>>>> 998f58c972b7146d3659a32ffda4f77512a20a1c
 }
 .indexsection2{
     background-color: green;
