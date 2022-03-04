@@ -10,8 +10,9 @@ body{
 }
 .section1{
     height: 33vh;
-    background-color: red;
-    margin: 0;
+    background-color: white;
+    display: grid;
+    place-content: center;
 }
 .section2{
     height: 33vh;
