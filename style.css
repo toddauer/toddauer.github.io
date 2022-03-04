@@ -26,8 +26,7 @@ body{
 .imgContainer{
   display: grid;
   place-items: center;
-  max-height: 33vh;
-  max-width: 100%;
+  width: 100%;
 }
 .indexsection1{
     background-color: white;
