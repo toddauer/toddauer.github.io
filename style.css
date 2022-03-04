@@ -23,6 +23,10 @@ body{
   border-radius: 20px;
   border-style: double;
 }
+.imgContainer{
+  display: grid;
+  place-items: center;
+}
 .indexsection1{
     background-color: white;
     margin: 0;
